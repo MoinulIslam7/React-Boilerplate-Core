@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Sora:wght@300;500;700&display=swap');
+
+@theme {
+  --color-primary: #001E17;
+  --color-primary1: #023535;
+  --color-primary2: #015958;
+  --color-primary3: #008F8C;
+  --color-primary4: #0CABA8;
+  --color-primary5: #0FC2C0;
+  --color-light: #E2E8F0;
+  --color-gray: #88A4AB;
+  --color-label: #88A4AB;
+  --color-danger: #e53e3e;
+
+  --font-family-nunito: 'Nunito Sans', sans-serif;
+}
+
+/* Custom layer styles */
+@layer base {
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+/* CSS for Switch checkbox Start*/
+.slider {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: calc(50% - 16px/2 - 10px);
+  top: calc(50% - 16px/2);
+  background: rgba(29, 27, 32, 1);
+  opacity: 38%;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.checkbox:checked+.switch {
+  background: #015958;
+  opacity: 100%;
+}
+
+.checkbox:checked+.switch .slider {
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 + 10px);
+  top: calc(50% - 24px/2);
+  background: #ffffff;
+  opacity: 100%;
+}
