@@ -42,6 +42,6 @@
     "vite-plugin-pwa": "^1.2.0"
   },
   "main": "index.js",
-  "author": "arrafi-mahin",
+  "author": "Moinul Islam",
   "license": "MIT"
 }

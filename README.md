@@ -336,7 +336,7 @@ MIT
 
 ## 👤 Author
 
-**arrafi-mahin** - [GitHub Profile](https://github.com/MoinulIslam7)
+**Moinul Islam** - [GitHub Profile](https://github.com/MoinulIslam7)
 
 ---
 
